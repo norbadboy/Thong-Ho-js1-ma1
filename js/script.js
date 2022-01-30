@@ -50,7 +50,7 @@ function listOfNames(list) {
 listOfNames(cats);
 
 //Question 8
-const container = document.querySelector(".cat-container");
+const catContainer = document.querySelector(".cat-container");
 
 function createCats(cats) {
   let html = "";
@@ -69,4 +69,4 @@ function createCats(cats) {
   return html;
 }
 
-container.innerHTML = createCats(cats);
+catContainer.innerHTML = createCats(cats);
